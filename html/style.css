@@ -1,0 +1,182 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=cyrillic);
+
+/* @group layout*/
+.container {
+   width: 860px; /* Ширина макета */
+   margin: 0 auto; /* Выравниваем по центру */
+   position: relative; /* Относительное позиционирование */
+  }
+.header {
+	background: #255F7F; /* Цвет фона */
+	color: #fff; /* Цвет текста */
+	padding: 10px; /* Отступы вокруг текста */
+}
+.space {
+	height: 18px;
+}
+.main {
+   margin-right: 294px; /* Отступ справа */
+}
+.sidebar {
+   /* Абсолютное позиционирование */
+   right: 0; /* Положение от правого края */
+   top: 0; /* Положение от верхнего края */
+   width: 270px; /* Ширина */
+   position: absolute;
+   float: right;
+}
+.phone {
+	background: url('images/icon_phone.gif') no-repeat left center;
+	padding-left: 20px;
+	width: 250px;
+	font-size: 12px;
+	line-height: 1.5em;
+	top: 60%;
+}
+.footer p {
+	color: #fff;
+}
+.footer a, header a {
+	color: #abcaf1;	
+}
+
+.footer {
+	background: #255F7F; /* Цвет фона */
+	padding: 15px; /* Отступы вокруг текста */
+	margin-top: 30px;
+}
+.footer p {
+	font-size: 10px;
+}
+.footer img {
+	float: left;
+	padding: 5px 10px;
+}
+.image {
+	background: url('images/head.jpg') no-repeat left top;
+	height: 281px;
+}
+.image div {
+	padding: 30px 450px 0 30px;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.image h1 {
+	font-size: 27px;
+	font-weight: normal;
+	font-style: normal;
+	color: #255F7F;
+}
+.image p {
+	font-size: 12px;
+	text-indent: -.75em;
+	color: #555;
+}
+/* @end */
+
+/* @group text*/
+* {
+	font-family: 'PT Sans', Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	line-height: 1.2em;
+}
+body {
+	margin: 0;
+	background-color: #fff;
+}
+p {
+	font-size: 14px;
+	margin: 0;
+	color: #46586C;
+}
+a {
+	text-decoration: none;
+	color: #255F7F;
+}
+
+h2 {
+	color: #fff;
+	margin: 0;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 20px;
+}
+h3 {
+	font-weight: bold;
+	font-size: 17px;
+	color: #46586C;
+	margin: 0 0 7px 0;
+}
+
+.f_line_text, label {
+	font-size: 13px;
+	color: #fff;
+}
+
+.f_line_text {
+	margin: 0;
+	padding: 5px 0 1px 0;
+	font-weight: bold;
+}
+.f_line_text:first-child {
+	padding-top: 0;
+}
+.f_line {
+	width: 100%;
+	height: 19px;
+	border: 0;
+	border-bottom: 1px solid #CD4E01;
+	border-left: 3px solid #CD4E01;
+
+}
+.col1, col2 {
+	display: block;
+}
+.col1 {
+	width: 95px;
+	float: left;
+	padding-right: 11px;
+}
+.col2{
+	width: 120px;
+	float: left;
+}
+#go_image {
+	padding: 15px 0 0 0;
+}
+/* @end */
+
+/* @group baloons*/
+.content {
+	padding: 20px 20px 0 24px;
+}
+.sidebar .content {
+	padding: 20px 24px 0 20px;
+}
+.baloon_small {
+	background: url('images/baloon_small.png') no-repeat 0 top;
+}
+.baloon_small .tail {
+	height: 42px;
+	background: url('images/baloon_small.png') no-repeat 0 bottom;
+}
+.question {
+	background: url('images/baloons.png') no-repeat 0 top;
+	padding-right: 80px;
+}
+.answer {
+	background: url('images/baloons.png') no-repeat 0 -100px;
+	padding: 11px 0 0 80px;
+}
+.tail {
+	height: 42px;
+	background: url('images/baloons.png') no-repeat 0 bottom;	
+}
+.baloon_form {
+	background: url('images/baloon_form.png') no-repeat 0 top;
+}
+.baloon_form .tail {
+	height: 42px;
+	background: url('images/baloon_form.png') no-repeat 0 bottom;
+}
+
+/* @end */
